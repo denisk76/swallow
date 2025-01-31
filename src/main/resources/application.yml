@@ -1,0 +1,16 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: swallow
+  webflux:
+    base-path: swallow
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+#    password: password
+  r2dbc:
+    username: postgres
+    password: password
+    url: r2dbc:postgresql://localhost:5432/postgres
