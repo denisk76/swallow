@@ -1,4 +1,4 @@
-package ru.bms.swallow;
+package ru.bms.swallow.dto;
 
 import lombok.*;
 
@@ -7,6 +7,6 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SimpleResponse {
+public class HelloResponse {
     private String message;
 }
